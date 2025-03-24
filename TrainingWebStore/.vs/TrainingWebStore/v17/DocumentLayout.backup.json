@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|c:\\users\\glebi\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|solutionrelative:trainingwebstore.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|c:\\users\\glebi\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|solutionrelative:trainingwebstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|c:\\users\\glebi\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|solutionrelative:trainingwebstore.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|c:\\users\\glebi\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|solutionrelative:trainingwebstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "TrainingWebStore.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:57:42.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Infrastructure\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\SeedData.cs",
+              "RelativeToolTip": "TrainingWebStore.Infrastructure\\Data\\SeedData.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:56:53.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:56:47.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "TrainingWebStore.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:55:52.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
