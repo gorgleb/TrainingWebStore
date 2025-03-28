@@ -24,7 +24,7 @@ namespace TrainingWebStore.Infrastructure.Repositories
             // Для PostgreSQL используем функцию ILIKE для поиска без учета регистра
             searchTerm = searchTerm.ToLower();
             return await _context.Products
-                .Where(p => EF.Functions.ILike(p.Name, $"%{searchTerm}%") ||
+                .Where(p =>EF.Functions.ILike(p.Name, $"%{searchTerm}%") ||
                            EF.Functions.ILike(p.Description, $"%{searchTerm}%"))
                 .Include(p => p.Category)
                 .ToListAsync();

@@ -138,5 +138,37 @@ namespace TrainingWebStore.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpGet("customers/{customerId}/discount-info")]
+        [ProducesResponseType(typeof(DiscountInfoDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<DiscountInfoDto>> GetCustomerDiscountInfo(int customerId)
+        {
+            try
+            {
+                // 1. Получаем информацию о скидке из сервиса
+                var discountInfo = await _orderService.GetCustomerDiscountInfoAsync(customerId);
+                if (discountInfo == null)
+                    return NotFound();
+                var dto = new DiscountInfoDto
+                {
+                    CurrentDiscountPercent = discountInfo.CurrentDiscountPercent,
+                    TotalSpent = discountInfo.TotalSpent,
+                    AmountToNextLevel = discountInfo.AmountToNextLevel,
+                    NextLevelThreshold = discountInfo.NextLevelThreshold,
+                    DiscountTier = discountInfo.DiscountTier,
+                };
+                return dto;
+
+                // 2. Если клиент не найден (сервис вернул null)
+                if (discountInfo == null)
+                    return NotFound();
+
+                return Ok(discountInfo);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Internal server error");
+            }
+        }
     }
 }

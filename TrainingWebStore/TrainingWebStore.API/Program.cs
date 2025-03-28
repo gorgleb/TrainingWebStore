@@ -28,6 +28,7 @@ builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<OrderService>();
 
 // Add Swagger
+// привет глеб
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
