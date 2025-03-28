@@ -1,22 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\",
+  "WorkspaceRootPath": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|c:\\users\\glebi\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|solutionrelative:trainingwebstore.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|c:\\users\\glebi\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|solutionrelative:trainingwebstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|c:\\users\\glebi\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|solutionrelative:trainingwebstore.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5777EB8-207C-4AC2-BD84-E68657431019}|TrainingWebStore.Core\\TrainingWebStore.Core.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5777EB8-207C-4AC2-BD84-E68657431019}|TrainingWebStore.Core\\TrainingWebStore.Core.csproj|solutionrelative:trainingwebstore.core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|c:\\users\\glebi\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.api\\dtos\\discountinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|solutionrelative:trainingwebstore.api\\dtos\\discountinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5777EB8-207C-4AC2-BD84-E68657431019}|TrainingWebStore.Core\\TrainingWebStore.Core.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.core\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5777EB8-207C-4AC2-BD84-E68657431019}|TrainingWebStore.Core\\TrainingWebStore.Core.csproj|solutionrelative:trainingwebstore.core\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15739935-063E-465A-9A01-288CA74B6540}|TrainingWebStore.API\\TrainingWebStore.API.csproj|solutionrelative:trainingwebstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5777EB8-207C-4AC2-BD84-E68657431019}|TrainingWebStore.Core\\TrainingWebStore.Core.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.core\\models\\discountinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5777EB8-207C-4AC2-BD84-E68657431019}|TrainingWebStore.Core\\TrainingWebStore.Core.csproj|solutionrelative:trainingwebstore.core\\models\\discountinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|solutionrelative:trainingwebstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|solutionrelative:trainingwebstore.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5777EB8-207C-4AC2-BD84-E68657431019}|TrainingWebStore.Core\\TrainingWebStore.Core.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.core\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5777EB8-207C-4AC2-BD84-E68657431019}|TrainingWebStore.Core\\TrainingWebStore.Core.csproj|solutionrelative:trainingwebstore.core\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|c:\\users\\kiril\\source\\repos\\trainingwebstore\\trainingwebstore\\trainingwebstore.infrastructure\\migrations\\20250327160754_kol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB94289F-DDF8-456C-A21C-E189943AB21E}|TrainingWebStore.Infrastructure\\TrainingWebStore.Infrastructure.csproj|solutionrelative:trainingwebstore.infrastructure\\migrations\\20250327160754_kol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +54,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "TrainingWebStore.API\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "TrainingWebStore.API\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCwAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "20250327160754_kol.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Migrations\\20250327160754_kol.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Infrastructure\\Migrations\\20250327160754_kol.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Migrations\\20250327160754_kol.cs",
+              "RelativeToolTip": "TrainingWebStore.Infrastructure\\Migrations\\20250327160754_kol.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T12:57:42.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T16:07:54.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:00:06.226Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "TrainingWebStore.Infrastructure\\Data\\SeedData.cs",
-              "ToolTip": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\SeedData.cs",
-              "RelativeToolTip": "TrainingWebStore.Infrastructure\\Data\\SeedData.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Core\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Core\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Core\\Models\\Order.cs",
+              "RelativeToolTip": "TrainingWebStore.Core\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T12:56:53.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T15:59:15.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "TrainingWebStore.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "DiscountInfo.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Core\\Models\\DiscountInfo.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Core\\Models\\DiscountInfo.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Core\\Models\\DiscountInfo.cs",
+              "RelativeToolTip": "TrainingWebStore.Core\\Models\\DiscountInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T12:56:47.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T15:45:39.017Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "TrainingWebStore.API\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\glebi\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "TrainingWebStore.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwFkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T12:55:52.99Z",
+              "WhenOpened": "2025-03-27T15:30:43.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Controllers\\OrdersController.cs*",
+              "RelativeToolTip": "TrainingWebStore.API\\Controllers\\OrdersController.cs*",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAKwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:43:53.621Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "TrainingWebStore.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:25:23.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Core\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Core\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Core\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "TrainingWebStore.Core\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:20:37.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Core\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.Core\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.Core\\Services\\OrderService.cs",
+              "RelativeToolTip": "TrainingWebStore.Core\\Services\\OrderService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwFYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:00:03.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Program.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.API\\Program.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\Program.cs",
+              "RelativeToolTip": "TrainingWebStore.API\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:45:34.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiscountInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\DTOs\\DiscountInfoDto.cs",
+              "RelativeDocumentMoniker": "TrainingWebStore.API\\DTOs\\DiscountInfoDto.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\TrainingWebStore\\TrainingWebStore\\TrainingWebStore.API\\DTOs\\DiscountInfoDto.cs",
+              "RelativeToolTip": "TrainingWebStore.API\\DTOs\\DiscountInfoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:34:29.378Z"
             }
           ]
         }

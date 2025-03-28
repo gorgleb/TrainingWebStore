@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TrainingWebStore.Core.Enums;
 using TrainingWebStore.Core.Interfaces;
 using TrainingWebStore.Core.Models;
 using TrainingWebStore.Infrastructure.Data;
@@ -26,5 +27,13 @@ namespace TrainingWebStore.Infrastructure.Repositories
                 .ThenInclude(oi => oi.Product)
                 .FirstOrDefaultAsync(o => o.Id == orderId);
         }
+        public async Task<IReadOnlyList<Order>> GetCompletedOrdersByCustomerAsync(int customerId)
+        {
+            return await _context.Orders
+                .Where(o => o.CustomerId == customerId && o.Status == OrderStatus.Delivered)
+                .Include(o => o.OrderItems)
+                .ToListAsync();
+        }
     }
 }
+

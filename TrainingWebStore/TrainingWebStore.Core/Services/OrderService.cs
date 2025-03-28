@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TrainingWebStore.Core.Enums;
+﻿using TrainingWebStore.Core.Enums;
 using TrainingWebStore.Core.Interfaces;
 using TrainingWebStore.Core.Models;
+
 
 namespace TrainingWebStore.Core.Services
 {
@@ -20,6 +16,7 @@ namespace TrainingWebStore.Core.Services
             _productRepository = productRepository;
         }
 
+        // 1. Существующие методы (без изменений)
         public async Task<Order> GetOrderByIdAsync(int id)
         {
             return await _orderRepository.GetOrderWithItemsAsync(id);
@@ -30,10 +27,11 @@ namespace TrainingWebStore.Core.Services
             return await _orderRepository.GetOrdersByCustomerAsync(customerId);
         }
 
+        // 2. Обновленный метод создания заказа (добавлен расчет скидки)
         public async Task<Order> CreateOrderAsync(Order order)
         {
-            // Проверка наличия товаров на складе и расчет общей суммы
-            decimal totalAmount = 0;
+            // Проверка товаров и расчет суммы без скидки
+            decimal subtotal = 0;
             foreach (var item in order.OrderItems)
             {
                 var product = await _productRepository.GetByIdAsync(item.ProductId);
@@ -46,22 +44,84 @@ namespace TrainingWebStore.Core.Services
                     throw new Exception($"Not enough stock for product {product.Name}. Available: {product.StockQuantity}, Requested: {item.Quantity}");
                 }
 
-                // Устанавливаем цену товара из базы данных
                 item.UnitPrice = product.Price;
-                totalAmount += item.UnitPrice * item.Quantity;
+                subtotal += item.UnitPrice * item.Quantity;
 
-                // Уменьшаем количество товара на складе
                 product.StockQuantity -= item.Quantity;
                 await _productRepository.UpdateAsync(product);
             }
 
-            // Устанавливаем общую сумму заказа
-            order.TotalAmount = totalAmount;
+            // Расчет и применение скидки
+            order.SubtotalAmount = subtotal;
+            order.DiscountPercentage = await CalculateCustomerDiscountAsync(order.CustomerId);
+            order.DiscountAmount = subtotal * (order.DiscountPercentage / 100);
+            // TotalAmount вычисляется автоматически в модели Order
+
             order.OrderDate = DateTime.UtcNow;
             order.Status = OrderStatus.Pending;
 
             return await _orderRepository.AddAsync(order);
         }
+
+        // 3. Методы для системы скидок
+        public async Task<DiscountInfo?> GetCustomerDiscountInfoAsync(int customerId)
+        {
+            try
+            {
+                var totalSpent = await GetCustomerTotalSpentAsync(customerId);
+                var discountPercent = await CalculateCustomerDiscountAsync(customerId);
+                var nextThreshold = GetNextThreshold(totalSpent);
+
+                return new DiscountInfo
+                {
+                    CurrentDiscountPercent = discountPercent,
+                    TotalSpent = totalSpent,
+                    AmountToNextLevel = Math.Max(nextThreshold - totalSpent, 0),
+                    NextLevelThreshold = nextThreshold,
+                    DiscountTier = GetDiscountTier(discountPercent) ?? "No discount"
+                };
+            }
+            catch
+            {
+                return null; // В случае ошибки вернет null
+            }
+        }
+
+        public async Task<decimal> GetCustomerTotalSpentAsync(int customerId)
+        {
+            var completedOrders = await _orderRepository.GetCompletedOrdersByCustomerAsync(customerId);
+            return completedOrders.Sum(o => o.TotalAmount);
+        }
+
+        public async Task<decimal> CalculateCustomerDiscountAsync(int customerId)
+        {
+            var totalSpent = await GetCustomerTotalSpentAsync(customerId);
+            return totalSpent switch
+            {
+                >= 10000 => 15,
+                >= 5000 => 10,
+                >= 1000 => 5,
+                _ => 0
+            };
+        }
+
+        private decimal GetNextThreshold(decimal totalSpent) => totalSpent switch
+        {
+            < 1000 => 1000,
+            < 5000 => 5000,
+            < 10000 => 10000,
+            _ => 0 // Максимальный уровень
+        };
+
+        private string GetDiscountTier(decimal discountPercent) => discountPercent switch
+        {
+            15 => "Gold",
+            10 => "Silver",
+            5 => "Bronze",
+            _ => "No discount"
+        };
+
+        // 4. Существующие методы (без изменений)
         public async Task UpdateOrderStatusAsync(int orderId, OrderStatus newStatus)
         {
             var order = await _orderRepository.GetByIdAsync(orderId);
