@@ -26,6 +26,7 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 // Add services
 builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<OrderService>();
+builder.Services.AddScoped<OrderAnalyticsService>();
 
 // Add Swagger
 // привет глеб

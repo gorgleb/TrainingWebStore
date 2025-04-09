@@ -1,8 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using TrainingWebStore.API.DTOs;
 using TrainingWebStore.Core.Enums;
 using TrainingWebStore.Core.Models;
@@ -12,7 +8,7 @@ namespace TrainingWebStore.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class OrdersController : ControllerBase
+    public class OrdersController : ControllerBase 
     {
         private readonly OrderService _orderService;
 

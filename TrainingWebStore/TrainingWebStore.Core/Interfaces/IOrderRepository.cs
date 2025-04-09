@@ -10,6 +10,13 @@ namespace TrainingWebStore.Core.Interfaces
 
         // Новый метод для скидок
         Task<IReadOnlyList<Order>> GetCompletedOrdersByCustomerAsync(int customerId);
+        Task<IReadOnlyList<Order>> GetOrdersByPeriodAsync(
+       DateTime startDate,
+       DateTime endDate,
+       bool includeItems = true,
+       bool includeProducts = true);
+       Task<IEnumerable<Order>> GetOrdersByDateRangeAsync(DateTime startDate, DateTime endDate);
+
     }
 
 }
