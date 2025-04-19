@@ -1,8 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using TrainingWebStore.API.DTOs;
 using TrainingWebStore.Core.Enums;
 using TrainingWebStore.Core.Models;
@@ -12,7 +8,7 @@ namespace TrainingWebStore.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class OrdersController : ControllerBase
+    public class OrdersController : ControllerBase 
     {
         private readonly OrderService _orderService;
 
@@ -136,6 +132,38 @@ namespace TrainingWebStore.API.Controllers
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("customers/{customerId}/discount-info")]
+        [ProducesResponseType(typeof(DiscountInfoDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<DiscountInfoDto>> GetCustomerDiscountInfo(int customerId)
+        {
+            try
+            {
+                // 1. Получаем информацию о скидке из сервиса
+                var discountInfo = await _orderService.GetCustomerDiscountInfoAsync(customerId);
+                if (discountInfo == null)
+                    return NotFound();
+                var dto = new DiscountInfoDto
+                {
+                    CurrentDiscountPercent = discountInfo.CurrentDiscountPercent,
+                    TotalSpent = discountInfo.TotalSpent,
+                    AmountToNextLevel = discountInfo.AmountToNextLevel,
+                    NextLevelThreshold = discountInfo.NextLevelThreshold,
+                    DiscountTier = discountInfo.DiscountTier,
+                };
+                return dto;
+
+                // 2. Если клиент не найден (сервис вернул null)
+                if (discountInfo == null)
+                    return NotFound();
+
+                return Ok(discountInfo);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Internal server error");
             }
         }
     }
